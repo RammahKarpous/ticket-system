@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Core\\": "app/Core/",
+            "App\\Controllers\\": "app/Controllers",
+            "Test\\": "Test/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
