@@ -1,0 +1,2 @@
+# About the project
+The purpose of this project is for me to practice OOP using PHP. It is a ticketing system based on the MVC architecture. I'm already familiar with Laravel, therefore there many similarities with the Laravel framework and small differences. While building the project I had little help from AIs like Windsurf or Grok for explaining PHP core functions, refactoring my code and helping me with fatal errors I run into.
