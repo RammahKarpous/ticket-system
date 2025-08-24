@@ -42,7 +42,7 @@ class View
      *
      * @return string The title of the page.
      */
-    public static function getTitle()
+    public static function title()
     {
         return self::$title;
     }
