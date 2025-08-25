@@ -1,3 +1,4 @@
 .env
 Localhost.session.sql
 vendor/
+.vscode
