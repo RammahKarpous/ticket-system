@@ -1,7 +1,8 @@
 <?php
 
 use App\Controllers\PagesController;
-use Core\Route;
+use App\Core\Route;
+
 
 Route::get('/', [PagesController::class, 'index']);
 Route::get('/about', [PagesController::class, 'about']);

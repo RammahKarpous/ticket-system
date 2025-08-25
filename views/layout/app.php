@@ -1,4 +1,4 @@
-<?php use Core\View; ?>
+<?php use App\Core\View; ?>
 
 <!DOCTYPE html>
 <html lang="en">
