@@ -1,0 +1,2 @@
+<h2>This is the Dashboard view</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque neque modi quidem magnam quam laborum natus, unde fuga sunt eveniet perferendis iure ratione tenetur illo tempora est. Odio ipsum sunt suscipit culpa. Sed illo, id est fuga voluptatem laborum praesentium, culpa ab, cumque provident sit atque nam ad blanditiis ipsum!

@@ -18,7 +18,7 @@
         </nav>
     </header>
 
-    <h1>App layout</h1>
+    <h1>Admin layout</h1>
     
     <?php echo View::content(); ?>
 
