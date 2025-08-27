@@ -9,6 +9,8 @@ class View
     private static string $view;
     private static array $args;
 
+
+
     /**
      * Displays a view using the specified layout.
      *
@@ -32,6 +34,8 @@ class View
         }
     }
 
+
+
     /**
      * Sets the title of the page.
      *
@@ -44,6 +48,21 @@ class View
         }
     }
 
+
+
+    /**
+     * Adds a stylesheet to the page.
+     *
+     * @param string $name The name of the stylesheet to include. Defaults to 'app'.
+     */
+    public static function styles(string $name = 'app'): void {
+    if (file_exists(__DIR__ . "/../../public/styles/{$name}.css")) {
+        echo "<link rel='stylesheet' href='/styles/{$name}.css'>";
+    }
+}
+
+
+
     /**
      * Gets the title of the page.
      *
@@ -53,6 +72,8 @@ class View
     {
         return self::$title;
     }
+
+
 
     /**
      * Gets the content of a view.

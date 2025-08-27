@@ -1,0 +1,17 @@
+@import "../sections/event.css";
+
+.card {
+    max-width: 22em;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    .card__title {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    .card__excerpt {
+        
+    }
+}
