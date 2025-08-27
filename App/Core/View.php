@@ -66,7 +66,7 @@ class View
             extract( self::$args );
 
             ob_start();
-            require __DIR__ . "/../../views/{$view}.view.php";
+            require __DIR__ . "/../../views/pages/{$view}.view.php";
             return ob_get_clean();
         }
         return '';
