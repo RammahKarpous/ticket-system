@@ -1,0 +1,14 @@
+button, .button, a.button {
+    padding: 0.75em 1.6em;
+    background: var(--primary);
+    border-radius: 0.3em;
+    color: var(--white);
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--hover);
+    }
+}

@@ -4,3 +4,12 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
+
+:root {
+    /* Colors */
+    --primary: #207ce0;
+    --hover: #196bc3;
+    --background: #f9f9f9;
+    --white: #fff;
+    --black: #000; 
+}
